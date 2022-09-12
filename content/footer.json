@@ -1,11 +1,11 @@
 {
   "description": {
-    "title": "",
+    "title": "LIMA LASH STORE",
     "text": ""
   },
   "links_1": {
     "list_pages": true,
-    "title": "Páginas",
+    "title": "",
     "list": []
   },
   "links_2": {
@@ -21,6 +21,12 @@
     "address": true
   },
   "stamps": [
+    {
+      "src": "/img/uploads/11912-whatsapp-image-2022-08-23-at-12.02.20-1-.jpeg"
+    },
+    {
+      "src": "/img/uploads/11912-whatsapp-image-2022-08-23-at-12.02.20.jpeg"
+    },
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
