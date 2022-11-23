@@ -50,7 +50,7 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "sort": "offers",
+      "sort": "slug",
       "title": "Black Friday",
       "collection_id": "637d246273321213f8e97326:categories:Black Friday:/black-friday"
     },
