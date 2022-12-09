@@ -41,10 +41,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": "lowest_price",
+      "sort": "offers",
       "title": "Ofertas",
       "collection_id": "637d246273321213f8e97326:categories:Black Friday:/black-friday"
     },
