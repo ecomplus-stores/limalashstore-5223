@@ -44,7 +44,7 @@
       "shuffle": true,
       "limit": 12,
       "page": 1,
-      "sort": "offers",
+      "sort": "lowest_price",
       "title": "Ofertas",
       "collection_id": "637d246273321213f8e97326:categories:Black Friday:/black-friday"
     },
