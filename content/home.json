@@ -54,12 +54,6 @@
       "page": 1,
       "sort": "offers",
       "title": "Ofertas"
-    },
-    {
-      "type": "brands-carousel",
-      "limit": 10,
-      "offset": 0,
-      "sort": "name"
     }
   ]
 }
