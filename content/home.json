@@ -44,17 +44,15 @@
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": "offers",
-      "title": "Ofertas",
-      "collection_id": "637d246273321213f8e97326:categories:Black Friday:/black-friday"
+      "sort": "news",
+      "title": "Novidades"
     },
     {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
       "page": 1,
-      "sort": "news",
-      "title": "Novidades"
+      "sort": "offers"
     }
   ]
 }
