@@ -63,6 +63,12 @@
       "offers": [
         "61663b8828ace502aea26ee8"
       ]
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 10,
+      "offset": 0,
+      "sort": "name"
     }
   ]
 }
