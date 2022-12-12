@@ -69,6 +69,11 @@
       "limit": 10,
       "offset": 0,
       "sort": "name"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "lowest_price"
     }
   ]
 }
