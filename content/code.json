@@ -1,5 +1,5 @@
 {
-  "css": ".tab-content img {altura: auto !important;}\n\n.g_ .logo a > img{max-height: 767px !C}\n\n@media(min-width: 767px) {\n  #logo {\n    max-height: 100px !important;\n  } \n} \n\n.order-info__toggle {\ndisplay: none !important;\n}\n<a href=\"https://wa.me/5548999809992?text=\" style=\"position:fixed;width:60px;height:60px;bottom:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;right:40px;\" target=\"_blank\">\n<i style=\"margin-top:16px\" class=\"fab fa-whatsapp\"></i>\n</a>",
+  "css": ".tab-content img {altura: auto !important;}\n\n.g_ .logo a > img{max-height: 767px !C}\n\n@media(min-width: 567px) {\n  #logo {\n    max-height: 100px !important;\n  } \n} \n\n.order-info__toggle {\ndisplay: none !important;\n}\n<a href=\"https://wa.me/5548999809992?text=\" style=\"position:fixed;width:60px;height:60px;bottom:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;z-index:1000;right:40px;\" target=\"_blank\">\n<i style=\"margin-top:16px\" class=\"fab fa-whatsapp\"></i>\n</a>",
   "html_head": "",
   "html_body": ""
 }
