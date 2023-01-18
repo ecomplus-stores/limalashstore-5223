@@ -60,6 +60,15 @@
       "page": 1,
       "sort": "offers",
       "title": "Ofertas em destaque"
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "620bbb4c7963422eee03e872:categories:Kits Iniciante:/kits-iniciante",
+      "sort": null,
+      "title": "Kits Iniciantes"
     }
   ]
 }
