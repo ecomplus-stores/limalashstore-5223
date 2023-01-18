@@ -1,5 +1,5 @@
 {
-  "css": ".tab-content img {altura: auto !important;}\n\n.g_ .logo a > img{max-height: 767px !C}",
+  "css": ".tab-content img {altura: auto !important;}\n\n.g_ .logo a > img{max-height: 767px !C}\n\n@media(min-width: 767px) {\n  #logo {\n    max-height: 200px !important;\n  } \n} ",
   "html_head": "",
   "html_body": ""
 }
