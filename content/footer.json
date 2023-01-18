@@ -5,16 +5,16 @@
   },
   "links_1": {
     "list_pages": true,
-    "title": "",
+    "title": "INSTITUCIONAL",
     "list": []
   },
   "links_2": {
     "list_categories": true,
-    "title": "Categorias",
+    "title": "CATEGORIAS",
     "list": []
   },
   "contacts": {
-    "title": "Contatos",
+    "title": "ATENDIMENTO",
     "phone_wpp": true,
     "socials": true,
     "email": true,
@@ -33,7 +33,7 @@
     }
   ],
   "payment_methods": {
-    "bb": true,
+    "bb": false,
     "visa": true,
     "boleto": true,
     "aura": false,
@@ -41,12 +41,14 @@
     "elo": true,
     "hipercard": false,
     "hsbc": false,
-    "bradesco": true,
+    "bradesco": false,
     "santander": false,
     "mastercard": true,
     "citibank": false,
     "mais": false,
-    "itau": true
+    "pix": true,
+    "amex": true,
+    "itau": false
   },
   "credits": ""
 }
