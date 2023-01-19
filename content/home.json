@@ -42,7 +42,7 @@
       "shuffle": true,
       "headless": false,
       "type": "collection-shelf",
-      "limit": 16,
+      "limit": 12,
       "collection_id": null,
       "sort": "sales"
     },
