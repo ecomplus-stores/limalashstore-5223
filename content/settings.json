@@ -3,8 +3,8 @@
   "currency_symbol": "R$",
   "primary_color": "#bc5c79",
   "theme": {
-    "bootswatch": "_",
-    "custom": "_"
+    "bootswatch": "cerulean",
+    "custom": "clean-white"
   },
   "bg_color": "#ffffff",
   "repository": "ecomplus-stores/limalashstore-5223",
