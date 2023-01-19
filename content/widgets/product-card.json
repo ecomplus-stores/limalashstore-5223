@@ -1,9 +1,9 @@
 {
   "pkg": "@ecomplus/widget-product-card",
   "active": true,
-  "desktopOnly": false,
+  "desktopOnly": true,
   "options": {
-    "buyText": "Ver Mais",
+    "buyText": "Adicionar ",
     "buy": "",
     "footer": ""
   }
