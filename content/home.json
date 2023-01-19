@@ -69,6 +69,10 @@
       "collection_id": "620bbb4c7963422eee03e872:categories:Kits Iniciante:/kits-iniciante",
       "sort": null,
       "title": "Kits Iniciantes"
+    },
+    {
+      "type": "breadcrumbs",
+      "enabled": true
     }
   ]
 }
