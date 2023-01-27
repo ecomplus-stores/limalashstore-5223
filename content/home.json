@@ -77,6 +77,17 @@
     {
       "type": "breadcrumbs",
       "enabled": true
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 48,
+      "start": "2023-01-27T13:46:13.207Z",
+      "end": "2023-01-29T13:46:13.271Z",
+      "offers": [
+        "616610bc28ace502aea1f742",
+        "616b470e964c025227ac8171",
+        "62680e363da6d37bc20d5cc7"
+      ]
     }
   ]
 }
