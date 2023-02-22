@@ -48,6 +48,16 @@
       ]
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2023-02-23T03:00:43.746Z",
+      "end": "2023-02-25T02:59:43.877Z",
+      "offers": [
+        "63de73d2b9e5be0778525740",
+        "61883c13239b7206d303d679"
+      ]
+    },
+    {
       "autoplay": 4000,
       "page": 3,
       "title": "Outros clientes estão comprando",
