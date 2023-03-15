@@ -43,15 +43,8 @@
       ]
     },
     {
-      "autoplay": 4000,
-      "page": 3,
-      "title": "Outros clientes estão comprando",
-      "shuffle": true,
-      "headless": false,
-      "type": "collection-shelf",
-      "limit": 12,
-      "collection_id": null,
-      "sort": "sales"
+      "type": "info-bar",
+      "enabled": true
     },
     {
       "type": "offers-timer",
@@ -71,6 +64,17 @@
         "61e9d3470c7c72722519ff64",
         "624ca7dc2e405e04ff24d145"
       ]
+    },
+    {
+      "autoplay": 4000,
+      "page": 3,
+      "title": "Outros clientes estão comprando",
+      "shuffle": true,
+      "headless": false,
+      "type": "collection-shelf",
+      "limit": 12,
+      "collection_id": null,
+      "sort": "sales"
     },
     {
       "type": "collection-shelf",
