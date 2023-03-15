@@ -43,10 +43,6 @@
       ]
     },
     {
-      "type": "info-bar",
-      "enabled": false
-    },
-    {
       "type": "offers-timer",
       "max_hours": 72,
       "start": "2023-03-15T14:15:11.154Z",
@@ -62,7 +58,8 @@
         "61b7e2fe0c7c727225cba01d",
         "6297e448ac0cb4200ffb11ec",
         "61e9d3470c7c72722519ff64",
-        "624ca7dc2e405e04ff24d145"
+        "624ca7dc2e405e04ff24d145",
+        "616610bc28ace502aea1f742"
       ]
     },
     {
