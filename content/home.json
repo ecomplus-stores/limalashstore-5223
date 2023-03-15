@@ -43,6 +43,20 @@
       ]
     },
     {
+      "type": "offers-timer",
+      "max_hours": 72,
+      "start": "2023-03-15T14:15:11.154Z",
+      "end": "2023-03-19T02:59:11.215Z",
+      "notes": "Ofertas Semana do Consumidor",
+      "offers": [
+        "6411c88f4bd2e929c19dbe64",
+        "61b7e59b0c7c727225cba639",
+        "61e9d4be0c7c7272251a0398",
+        "616b470e964c025227ac8171",
+        "621908757963422eee1ce758"
+      ]
+    },
+    {
       "autoplay": 4000,
       "page": 3,
       "title": "Outros clientes estão comprando",
