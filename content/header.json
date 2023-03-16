@@ -11,8 +11,10 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [],
-    "random": 10,
+    "featured": [
+      "/semada-do-consumidor?Semada do Consumidor"
+    ],
+    "random": 11,
     "full_width": true
   },
   "desktop_megamenu": false,
