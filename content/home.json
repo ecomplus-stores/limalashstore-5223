@@ -10,7 +10,7 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/semanaconsumidor.jpg",
+          "img": "/img/uploads/semanaconsumidor2203.jpg",
           "link": "https://www.limalashstore.com.br/semana-do-consumidor"
         },
         {
@@ -44,7 +44,7 @@
     },
     {
       "type": "offers-timer",
-      "max_hours": 72,
+      "max_hours": 200,
       "start": "2023-03-15T14:15:11.154Z",
       "end": "2023-03-23T02:59:11.215Z",
       "notes": "Ofertas Semana do Consumidor",
