@@ -43,26 +43,6 @@
       ]
     },
     {
-      "type": "offers-timer",
-      "max_hours": 200,
-      "start": "2023-03-15T14:15:11.154Z",
-      "end": "2023-03-23T02:59:11.215Z",
-      "notes": "Ofertas Semana do Consumidor",
-      "offers": [
-        "6411c88f4bd2e929c19dbe64",
-        "61b7e59b0c7c727225cba639",
-        "61e9d4be0c7c7272251a0398",
-        "616b470e964c025227ac8171",
-        "621908757963422eee1ce758",
-        "6255ed4d2e405e04ff3bc5e3",
-        "61b7e2fe0c7c727225cba01d",
-        "6297e448ac0cb4200ffb11ec",
-        "61e9d3470c7c72722519ff64",
-        "624ca7dc2e405e04ff24d145",
-        "616610bc28ace502aea1f742"
-      ]
-    },
-    {
       "autoplay": 4000,
       "page": 3,
       "title": "Outros clientes estão comprando",
