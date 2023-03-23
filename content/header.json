@@ -11,9 +11,7 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [
-      "/semada-do-consumidor?Semana do Consumidor"
-    ],
+    "featured": [],
     "random": 11,
     "full_width": true
   },
