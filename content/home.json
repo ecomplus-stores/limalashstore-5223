@@ -63,12 +63,12 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 16,
+      "shuffle": true,
+      "limit": 22,
       "page": 1,
       "sort": "news",
       "title": "Acabou de chegar",
-      "autoplay": 2000
+      "autoplay": 4000
     },
     {
       "type": "collection-shelf",
