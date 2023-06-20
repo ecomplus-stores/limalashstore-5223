@@ -88,6 +88,10 @@
       "sort": null,
       "title": "Kits Iniciantes",
       "autoplay": 2000
+    },
+    {
+      "type": "breadcrumbs",
+      "enabled": true
     }
   ]
 }
