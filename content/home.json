@@ -108,6 +108,11 @@
       "offset": 0,
       "sort": "name",
       "autoplay": 4000
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "offers"
     }
   ]
 }
