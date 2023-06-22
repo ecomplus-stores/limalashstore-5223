@@ -81,9 +81,9 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 24,
-      "page": 1,
+      "page": 3,
       "sort": "offers",
       "title": "Ofertas em destaque",
       "autoplay": 10000
