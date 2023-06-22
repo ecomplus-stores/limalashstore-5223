@@ -81,12 +81,12 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 16,
-      "page": 1,
+      "shuffle": true,
+      "limit": 24,
+      "page": 2,
       "sort": "offers",
       "title": "Ofertas em destaque",
-      "autoplay": 2000
+      "autoplay": 40000
     },
     {
       "type": "collection-shelf",
