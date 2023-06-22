@@ -99,10 +99,6 @@
       "autoplay": 2000
     },
     {
-      "type": "breadcrumbs",
-      "enabled": true
-    },
-    {
       "type": "brands-carousel",
       "limit": 24,
       "offset": 0,
@@ -110,9 +106,8 @@
       "autoplay": 4000
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
-      "sort": "offers"
+      "type": "breadcrumbs",
+      "enabled": true
     }
   ]
 }
