@@ -90,13 +90,13 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": false,
+      "shuffle": true,
       "limit": 12,
       "page": 1,
       "collection_id": "620bbb4c7963422eee03e872:categories:Kits Iniciante:/kits-iniciante",
       "sort": null,
       "title": "Kits Iniciantes",
-      "autoplay": 2000
+      "autoplay": 10000
     },
     {
       "type": "brands-carousel",
