@@ -99,13 +99,6 @@
       "autoplay": 10000
     },
     {
-      "type": "brands-carousel",
-      "limit": 24,
-      "offset": 0,
-      "sort": "name",
-      "autoplay": 4000
-    },
-    {
       "type": "breadcrumbs",
       "enabled": true
     }
