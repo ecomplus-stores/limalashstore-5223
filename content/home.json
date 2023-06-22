@@ -83,10 +83,10 @@
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
-      "page": 2,
+      "page": 1,
       "sort": "offers",
       "title": "Ofertas em destaque",
-      "autoplay": 40000
+      "autoplay": 10000
     },
     {
       "type": "collection-shelf",
