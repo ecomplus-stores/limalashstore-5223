@@ -62,7 +62,7 @@
     {
       "autoplay": 10000,
       "page": 3,
-      "title": "Outros clientes estão comprando",
+      "title": "Outros clientes estão comprando!",
       "shuffle": true,
       "headless": false,
       "type": "collection-shelf",
