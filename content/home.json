@@ -77,7 +77,8 @@
       "page": 3,
       "sort": "news",
       "title": "Acabou de chegar",
-      "autoplay": 10000
+      "autoplay": 10000,
+      "headless": false
     },
     {
       "type": "collection-shelf",
