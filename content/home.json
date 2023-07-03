@@ -72,10 +72,10 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 24,
       "page": 3,
-      "sort": "slug",
+      "sort": "news",
       "title": "Acabou de chegar",
       "autoplay": 10000,
       "headless": false
