@@ -85,9 +85,10 @@
       "shuffle": true,
       "limit": 24,
       "page": 3,
-      "sort": "lowest_price",
+      "sort": "offers",
       "title": "Ofertas em destaque",
-      "autoplay": 10000
+      "autoplay": 10000,
+      "collection_id": "615ced4828ace502ae969dc8:categories:Cílios:/cilios"
     },
     {
       "type": "collection-shelf",
