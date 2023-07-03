@@ -75,7 +75,7 @@
       "shuffle": true,
       "limit": 24,
       "page": 3,
-      "sort": "news",
+      "sort": "slug",
       "title": "Acabou de chegar",
       "autoplay": 10000,
       "headless": false
