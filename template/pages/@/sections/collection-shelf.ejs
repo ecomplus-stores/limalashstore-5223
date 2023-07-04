@@ -1,88 +1,73 @@
-<% if (Array.isArray(opt.items) && opt.items.length) {
-  const title = opt.title ||
-    (opt.collection && opt.collection.name) ||
-    _.dictionary('popularProducts')
-  const link = opt.link || (opt.collection && `/${opt.collection.slug}`)
+<%
+let { title, link, shuffle, headless, autoplay } = opt
+let items, collection
+if (opt.sort || opt.collection_id) {
+  let search, productIds
+  if (opt.collection_id) {
+    const [_id, resource, name, path] = opt.collection_id.split(':')
+    if (!title) {
+      title = name
+    }
+    if (!link) {
+      link = path
+    }
 
-  if (opt.shuffle) {
-    let m = opt.items.filter(item => {
-      return item.available && _.ecomUtils.inStock(item)
-    }).length
-    let t, i
-    while (m) {
-      i = Math.floor(Math.random() * m--)
-      t = opt.items[m]
-      opt.items[m] = opt.items[i]
-      opt.items[i] = t
+    if (resource === 'categories') {
+      search = new _.EcomSearch().setCategoryIds([_id])
+    } else if (resource === 'brands') {
+      search = new _.EcomSearch().setBrandIds([_id])
+    } else {
+      let res
+      try {
+        res = await _.ecomClient.store({
+          url: `/collections/${_id}.json`
+        })
+      } catch (err) {
+        console.error(err)
+      }
+      if (res) {
+        collection = res.data
+        productIds = collection.products
+        if (Array.isArray(productIds) && productIds.length) {
+          search = new _.EcomSearch().setProductIds(productIds.slice(0, 70))
+        }
+      }
+    }
+  } else {
+    search = new _.EcomSearch()
+  }
+
+  if (search) {
+    if (opt.sort) {
+      search.setSortOrder(opt.sort)
+    }
+    if (opt.limit > 0) {
+      search.setPageSize(opt.limit)
+    }
+    if (opt.page >= 2) {
+      search.setPageNumber(opt.page)
+    }
+    try {
+      await search.fetch()
+      items = search.getItems()
+    } catch (err) {
+      console.error(err)
+    }
+    if (items && productIds && !opt.sort && !shuffle) {
+      items.sort((a, b) => {
+        return productIds.indexOf(a._id) < productIds.indexOf(b._id) ? -1 : 1
+      })
     }
   }
-  %>
+} else {
+  const size = opt.limit || 24
+  const offset = opt.page >= 2 ? (opt.page - 1) * size : 0
+  items = _.items.slice(offset, offset + size)
+}
+%>
 
-  <section
-    class="products-carousel"
-    data-size="<%= opt.items.length %>"
-    <% if (opt.collection) { %>
-      data-collection-id="<%= opt.collection._id %>"
-    <% } %>
-    data-title="<%= title %>"
-  >
-    <% if (!opt.headless) { %>
-      <h4 class="products-carousel__title">
-        <% if (opt.title || opt.collection) { %>
-          <% if (link) { %>
-            <a href="<%= link %>">
-              <%= title %>
-            </a>
-          <% } else { %>
-            <span><%= title %></span>
-          <% } %>
-        <% } else { %>
-          <a href="/search">
-            <%= title %>
-          </a>
-        <% } %>
-      </h4>
-    <% } %>
-
-    <div
-      class="glide"
-      data-wait-mutation="true"
-      data-autoplay="<%= opt.autoplay %>"
-      data-per-view="4"
-      data-per-view-md="3"
-      data-per-view-sm="2"
-    >
-      <div class="glide__track" data-glide-el="track">
-        <ul class="glide__slides products-carousel__list">
-          <% for (let i = 0; i < opt.items.length; i++) { %>
-            <li class="glide__slide products-carousel__item">
-              <%- await include('@/sections/inc/product-item', {
-                _, opt: { item: opt.items[i] }
-              }) %>
-            </li>
-          <% } %>
-        </ul>
-
-        <div
-          class="glide__arrows glide__arrows--outer"
-          data-glide-el="controls"
-        >
-          <button
-            class="btn glide__arrow glide__arrow--left"
-            data-glide-dir="<"
-            aria-label="<%= _.dictionary('previous') %>"
-          >
-            <i class="i-chevron-left"></i>
-          </button>
-          <button
-            class="btn glide__arrow glide__arrow--right"
-            data-glide-dir=">"
-            aria-label="<%= _.dictionary('next') %>"
-          >
-            <i class="i-chevron-right"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
-<% } %>
+<div class="collection-shelf my-lg-5">
+  <%- await include('@/sections/inc/products-carousel', {
+    _, opt: { items, collection, title, link, shuffle, headless, autoplay }
+  }) %>
+</div>

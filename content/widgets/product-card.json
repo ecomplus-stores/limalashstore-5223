@@ -3,7 +3,7 @@
   "active": true,
   "desktopOnly": true,
   "options": {
-    "buyText": "Adicionar ",
+    "buyText": "Adicionar",
     "buy": "",
     "footer": ""
   }

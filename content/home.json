@@ -113,11 +113,6 @@
       "title": "Novidades em Sobrancelhas",
       "autoplay": 10000,
       "sort": "slug"
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": false,
-      "sort": "offers"
     }
   ]
 }
