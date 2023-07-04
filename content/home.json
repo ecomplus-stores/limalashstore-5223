@@ -82,7 +82,7 @@
     },
     {
       "type": "collection-shelf",
-      "shuffle": true,
+      "shuffle": false,
       "limit": 24,
       "page": 3,
       "sort": "offers",
