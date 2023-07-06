@@ -70,6 +70,16 @@
       "collection_id": null
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 24,
+      "page": 1,
+      "sort": "news",
+      "title": "Acabou de chegar",
+      "autoplay": 5000,
+      "headless": false
+    },
+    {
       "autoplay": 5000,
       "page": 1,
       "title": "Outros clientes estão comprando!",
@@ -79,16 +89,6 @@
       "limit": 24,
       "collection_id": null,
       "sort": "sales"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 24,
-      "page": 1,
-      "sort": "news",
-      "title": "Acabou de chegar",
-      "autoplay": 5000,
-      "headless": false
     },
     {
       "type": "collection-shelf",
