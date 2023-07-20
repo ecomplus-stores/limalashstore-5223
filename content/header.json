@@ -11,7 +11,9 @@
     "socials": false
   },
   "categories_list": {
-    "featured": [],
+    "featured": [
+      "/extensao-de-cilios?Extensão de Cílios"
+    ],
     "random": 11,
     "full_width": true
   },
