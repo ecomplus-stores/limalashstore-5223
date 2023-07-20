@@ -65,7 +65,9 @@
       "limit": 12,
       "page": 1,
       "sort": "news",
-      "collection_id": "64b81c8e5e606903706abf27:categories:Lash Lifting:/lash-lifting"
+      "collection_id": "64b81c8e5e606903706abf27:categories:Lash Lifting:/lash-lifting",
+      "title": "Novidades em Lash Lifting",
+      "autoplay": 5000
     },
     {
       "type": "collection-shelf",
