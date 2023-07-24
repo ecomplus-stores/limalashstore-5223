@@ -3,6 +3,10 @@
   "meta_description": "",
   "sections": [
     {
+      "type": "breadcrumbs",
+      "enabled": true
+    },
+    {
       "type": "banner-slider",
       "autoplay": 9000,
       "full_width": true,
@@ -111,10 +115,6 @@
       "sort": null,
       "title": "Kits Iniciantes",
       "autoplay": 5000
-    },
-    {
-      "type": "breadcrumbs",
-      "enabled": true
     }
   ]
 }
