@@ -71,6 +71,17 @@
       "autoplay": 5000
     },
     {
+      "autoplay": 5000,
+      "page": 1,
+      "title": "Novidades em Extensão de Cílios",
+      "shuffle": false,
+      "headless": false,
+      "type": "collection-shelf",
+      "limit": 24,
+      "collection_id": "64b830a45e606903706ae412:categories:Extensão de Cílios:/extensao-de-cilios",
+      "sort": "news"
+    },
+    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
@@ -91,16 +102,6 @@
       "title": "Ofertas em destaque",
       "autoplay": 5000,
       "collection_id": null
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 24,
-      "page": 1,
-      "sort": "news",
-      "title": "Acabou de chegar",
-      "autoplay": 5000,
-      "headless": false
     },
     {
       "autoplay": 5000,
