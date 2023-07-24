@@ -86,16 +86,6 @@
       "sort": "news"
     },
     {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "sort": "news",
-      "title": "Novidades em Extensão de Cílios",
-      "autoplay": 5000,
-      "collection_id": "615ced9028ace502ae969e7d:categories:Adesivos (colas):/adesivos"
-    },
-    {
       "autoplay": 5000,
       "page": 1,
       "title": "Outros clientes estão comprando!",
