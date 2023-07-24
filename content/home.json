@@ -82,18 +82,6 @@
       "sort": "news"
     },
     {
-      "type": "shelfs-nav",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1,
-      "collection_ids": [
-        "64b830a45e606903706ae412:categories:Extensão de Cílios:/extensao-de-cilios"
-      ],
-      "sort": "news",
-      "shelfs_title": "Novidades em Extensão de Cílios",
-      "autoplay": 5000
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 24,
