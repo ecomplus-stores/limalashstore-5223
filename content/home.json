@@ -78,7 +78,7 @@
       "autoplay": 5000,
       "page": 1,
       "title": "Novidades em Extensão de Cílios",
-      "shuffle": true,
+      "shuffle": false,
       "headless": false,
       "type": "collection-shelf",
       "limit": 24,
