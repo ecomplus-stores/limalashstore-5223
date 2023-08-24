@@ -89,7 +89,7 @@
       "autoplay": 5000,
       "page": 1,
       "title": "Outros clientes estão comprando!",
-      "shuffle": true,
+      "shuffle": false,
       "headless": false,
       "type": "collection-shelf",
       "limit": 24,
