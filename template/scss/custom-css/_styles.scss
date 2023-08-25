@@ -421,3 +421,88 @@
     border-radius: 50px;
     border: 1px solid #a4a4a4ad;
   }
+
+  .section-newsletter-home {
+    background: #bc5c79;
+    padding: 40px 0;
+    color: #fff;
+
+    .conteiner {
+        padding: 10px 20px;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .newsletter * {
+        color: #fff !important;
+    }
+
+    .newsletter div:nth-child(1) {
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    .newsletter h3 {
+        font-size: 24px;
+    }
+
+    .newsletter span {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .newsletter .input-conteiner {
+        margin-top: 40px;
+        width: 80%;
+        margin: auto;
+        padding: 40px 0 0;
+    }
+
+    .newsletter-confirmacao {
+        width: 20%;
+        margin: auto;
+        padding-top: 30px;
+      }
+    .hide {
+        display: none;
+    }
+
+    .newsletter .newsletter-confirmacao .cupom-code {
+        border: 2px solid #fff;
+        border-radius: 6px;
+        border-style: dashed;
+      }
+      .newsletter .newsletter-confirmacao span {
+        display: block;
+        margin-left: 0;
+        padding: 5px 0;
+        color: #fff;
+      }
+
+      .newsletter .input-conteiner button {
+        width: 30px;
+        padding: 0;
+        border: 0;
+        height: 30px;
+        margin-left: -45px;
+        background: transparent;
+      }
+
+      svg {
+        fill: #bc5c79;
+      }
+
+      .newsletter input {
+        width: 90%;
+        margin: 0;
+        padding: 15px;
+        border: none !important;
+      }
+
+  }
+
+  .section-newsletter-home + .container {
+    padding-top: 15px;
+  }
