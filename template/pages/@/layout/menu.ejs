@@ -35,6 +35,29 @@ if (mainCategories) {
     }
   }
 }
+
+const hasBrands = true
+let brands
+if (hasBrands) {
+  try {
+    const { data } = await _.ecomClient.store({
+      url: '/brands'
+    })
+    categoryParents['_'].push({
+      _id: _.ecomUtils.randomObjectId(),
+      name: _.dictionary('brands') || 'Marcas',
+      slug: 'brands'
+    })
+    brands = data.result.sort((a, b)=> {
+      return b.name > a.name ? -1 : 1
+    })
+    categoryParents['brands'] = [
+      ...brands
+    ]
+  } catch (err) {
+    console.error(err)
+  }
+}
 %>
 
 <aside id="menu" class="menu shadow">

@@ -105,6 +105,12 @@
       "sort": null,
       "title": "Kits Iniciantes",
       "autoplay": 5000
+    },
+    {
+      "type": "brands-carousel",
+      "limit": 43,
+      "offset": 0,
+      "sort": null
     }
   ]
 }

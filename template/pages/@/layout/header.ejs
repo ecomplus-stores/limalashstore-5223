@@ -49,6 +49,20 @@ const hasMegamenu = header.desktop_megamenu
 const isAlphabeticalOrderSubmenu = header.alphabetical_order_submenu
 const fullWidthSubmenu = header.full_width_submenu
 const isCentralizedLogo = header.centralized_logo
+const hasBrands = true
+let brands
+if (hasBrands) {
+  try {
+    const { data } = await _.ecomClient.store({
+      url: '/brands'
+    })
+    brands = data.result.sort((a, b)=> {
+      return b.name > a.name ? -1 : 1
+    })
+  } catch (err) {
+    console.error(err)
+  }
+}
 %>
 
 <div id="overlay" class="fade"></div>
@@ -151,6 +165,63 @@ const isCentralizedLogo = header.centralized_logo
           role="group"
           aria-label="<%= _.dictionary('myAccount') %>"
         >
+        <div class="dropHelp"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+            style="enable-background:new 0 0 512 512;" xml:space="preserve">
+            <g>
+              <g>
+                <g>
+                  <path
+                    d="M248.158,343.22c-14.639,0-26.491,12.2-26.491,26.84c0,14.291,11.503,26.84,26.491,26.84c14.988,0,26.84-12.548,26.84-26.84C274.998,355.42,262.799,343.22,248.158,343.22z">
+                  </path>
+                  <path
+                    d="M252.69,140.002c-47.057,0-68.668,27.885-68.668,46.708c0,13.595,11.502,19.869,20.914,19.869c18.822,0,11.154-26.84,46.708-26.84c17.429,0,31.372,7.669,31.372,23.703c0,18.824-19.52,29.629-31.023,39.389c-10.108,8.714-23.354,23.006-23.354,52.983c0,18.125,4.879,23.354,19.171,23.354c17.08,0,20.565-7.668,20.565-14.291c0-18.126,0.35-28.583,19.521-43.571c9.411-7.32,39.04-31.023,39.04-63.789S297.307,140.002,252.69,140.002z">
+                  </path>
+                  <path
+                    d="M256,0C114.516,0,0,114.497,0,256v236c0,11.046,8.954,20,20,20h236c141.483,0,256-114.497,256-256C512,114.516,397.503,0,256,0z M256,472H40V256c0-119.377,96.607-216,216-216c119.377,0,216,96.607,216,216C472,375.377,375.393,472,256,472z">
+                  </path>
+                </g>
+              </g>
+            </g>
+          </svg>
+          <p>Central de<br><b>atendimento</b></p>
+          <div class="container-drop-help">
+            <div class="container-conteudo-drop-help">
+              <ul>
+        
+                <li>
+                  <a href="tel:(48) 99980-9992">
+                    <p>Fale por telefone:</p>
+                    <i class="icon-phone"></i> (48) 99980-9992
+                  </a>
+                </li>
+        
+        
+                <li class="tel-whatsapp">
+                  <a href="https://api.whatsapp.com/send?phone=5548999809992" target="_blank">
+                    <p>Fale por WhatsApp:</p>
+                    <i class="fa fa-whatsapp"></i> (48) 99980-9992
+                  </a>
+                </li>
+        
+        
+        
+                <li>
+                  <a href="mailto:contato@limalashstore.com.br">
+                    <p>Envie um e-mail:</p>
+                    <i class="fa fa-envelope"></i> contato@limalashstore.com.br
+                  </a>
+                </li>
+        
+              </ul>
+              <div class="container-button-fale-conosco-drop-help">
+                <div data-toggle="modal" data-target="#modalContato" class="container-conteudo-button-fale-conosco-drop-help">
+                  <span>Fale conosco</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
           <button
             class="d-lg-none btn btn-lg"
             id="mobile-search-btn"
@@ -165,6 +236,27 @@ const isCentralizedLogo = header.centralized_logo
             <i class="i-search"></i>
           </button>
 
+          <div class="my_account"><svg class="user-icon" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><path d="M418.651,431.634c-8.576-56.229-45.769-103.945-98.194-125.989c42.679-35.547,48.457-98.962,12.91-141.641s-98.962-48.457-141.641-12.91s-48.457,98.962-12.91,141.641c3.904,4.69,8.229,9.006,12.91,12.91c-49.783,21.12-86.007,65.344-96.914,118.309c-2.021,9.893,4.37,19.557,14.263,21.577c9.893,2.021,19.557-4.37,21.577-14.263c14.153-69.257,81.774-113.938,151.04-99.785c52.407,10.706,92.626,52.873,100.846,105.728c1.408,8.978,9.198,15.561,18.286,15.451h2.834C413.595,450.981,420.306,441.582,418.651,431.634z M192,228.571c0-35.346,28.654-64,64-64s64,28.654,64,64s-28.654,64-64,64S192,263.918,192,228.571z"></path><path d="M256,512C114.615,512,0,397.385,0,256S114.615,0,256,0s256,114.615,256,256S397.385,512,256,512z M256,36.571c-121.189,0-219.429,98.24-219.429,219.429S134.811,475.429,256,475.429S475.429,377.189,475.429,256S377.189,36.571,256,36.571z"></path><g></g></svg>
+            <div class="my_account_info">
+              <a href="/app/#/account/" class="my_account-title">
+                <div class="newUser">
+                  <span class="userName">Olá, bem vindo(a)<span>
+                </span></span></div>
+         
+              </a>
+            <span class="my_account-subtitle">
+                        <a href="/app/#/account/">Entre</a> 
+                        ou 
+                        <a href="/app/#/account/">Cadastre-se</a>
+                </span>
+                    </div>
+            <ul>
+                <li class="listAccount"><a href="/app/#/account/orders">Meus pedidos</a></li>
+                <li class="listAccount"><a href="/app/#/account/favorites">Meus favoritos</a></li>
+                <li class="shipping"><a href="/#modalRastreio" data-toggle="modal" data-target="#modalRastreio">Acompanhar pedido</a></li>
+         
+            </ul></div>
+
           <a
             id="user-button"
             class="btn btn-lg"
@@ -172,8 +264,10 @@ const isCentralizedLogo = header.centralized_logo
             href="/app/#/account/"
             title="<%= _.dictionary('myAccount') %>"
           >
-            <i class="i-user"></i>
+            <img src="/img/uploads/user.svg" alt="Minha conta">
           </a>
+
+
           <a
             id="cart-button"
             class="btn btn-lg"
@@ -181,7 +275,7 @@ const isCentralizedLogo = header.centralized_logo
             href="/app/#/cart"
             title="<%= _.dictionary('openCart') %>"
           >
-            <i class="i-shopping-bag"></i>
+          <img src="/img/uploads/cart.svg" alt="Minha conta">
             <span id="cart-count" class="badge badge-primary"></span>
           </a>
         </div>
@@ -216,7 +310,7 @@ const isCentralizedLogo = header.centralized_logo
             <input
               type="search"
               name="term"
-              placeholder="<%= _.dictionary('searchProducts') %>"
+              placeholder="Olá, o que está procurando hoje?"
               aria-label="<%= _.dictionary('searchProducts') %>"
               class="header__search-input form-control"
               id="search-input"
@@ -268,6 +362,38 @@ const isCentralizedLogo = header.centralized_logo
       <% if (categories && categories.length) { %>
         <div class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %> header__nav-block">
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
+            <% if (hasBrands && brands && brands.length) { %>
+              <div class="d-inline-block">
+                <a
+                  href="javascript:;"
+                  class="header__brands header__category"
+                  <%- hasMegamenu
+                    ? `onmouseover="toggleSubmenu('brands', this)"`
+                    : `onclick="toggleSidenav('brands')"` %>
+                >
+                  <%= _.dictionary('brands') %>
+                </a>
+                <% if (hasMegamenu) { %>
+                  <nav class="header__submenu header__submenu--full" id="s-brands">
+                    <% brands.forEach((brand, index) => { %>
+                      <div class="brand-line">
+                          <span class="menu__item-icon">
+                            <% if (brand.logo) { %>
+                            <img
+                              data-src="<%= brand.logo.url %>"
+                              alt="<%= brand.logo.alt || brand.name %>"
+                              class="lozad"
+                              data-preload="<%= (index * 200) %>"
+                            >
+                            <% } %> 
+                          </span>              
+                        <a id="b-<%= brand._id %>" href="/<%= brand.slug %>"><%= brand.name %></a>
+                      </div>
+                    <% }) %>
+                  </nav>
+                <% } %>
+              </div>
+            <% } %>
             <% categories.forEach(({ slug, name, _id}) => { %>
               <% let $categoryLink %>
               <div class="d-inline-block">
@@ -334,3 +460,13 @@ const isCentralizedLogo = header.centralized_logo
     </div>
   </div>
 <% } %> 
+<div class="modal fade hide" id="modalRastreio" style="display: none;" aria-hidden="true"> <div class="modal-header"><h3 class="modal-title">Rastreamento de pedidos</h3><button type="button" id="close-modal-popup-1" class="close" data-dismiss="modal" aria-label="Close"><i class="fa fa-times"></i></button></div><div class="modal-body"><form id="formRastrear"><input id="rastrearObj" placeholder="Digite seu código de rastreio"><a class="objSearch" target="_blank" href="https://www.rastreie.com/"><span>Buscar</span></div></form></div></div>
+<script>
+  document.getElementById('close-modal-popup-1').addEventListener('click', (e) => {
+    document.getElementById('modalRastreio').style.display = 'none'
+    document.getElementById('modalRastreio').classList.remove('show')
+    document.getElementById('modalRastreio').ariaHidden = 'true'
+    document.querySelector('body').classList.remove('modal-open')
+    document.querySelector('.modal-backdrop.fade.show').remove()
+  })
+</script>
