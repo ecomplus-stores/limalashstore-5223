@@ -10,6 +10,10 @@
     letter-spacing: 1.2px;
 }
 
+.quantity-selector__btn-container {
+    margin-left: 1px
+}
+
 @media(min-width: 576px) {
     #logo {
         max-height: 90px !important;
