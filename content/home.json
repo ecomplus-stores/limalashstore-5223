@@ -61,6 +61,15 @@
     },
     {
       "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1,
+      "collection_id": "655c027b2cd6b65959b10cdc:categories:Black Friday:/black-friday",
+      "sort": "lowest_price",
+      "title": "Black Friday"
+    },
+    {
+      "type": "collection-shelf",
       "shuffle": true,
       "limit": 24,
       "page": 1,
