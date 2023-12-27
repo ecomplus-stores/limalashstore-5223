@@ -51,6 +51,12 @@
           "end": "",
           "img": "/img/uploads/bannercherry.jpg",
           "link": "https://www.limalashstore.com.br/cherrylash"
+        },
+        {
+          "start": "",
+          "end": "",
+          "mobile_img": "",
+          "img": "/img/uploads/bannerrecesso.jpg"
         }
       ]
     },
