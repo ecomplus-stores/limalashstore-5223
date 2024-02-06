@@ -8,194 +8,162 @@ const themeCustom = _.settings.theme.custom || ''
 <footer class="footer">
   <section class="section-newsletter-home">
     <div class="conteiner">
-        <div class="row-fluid ">
-              <div class="span12 text-center">
-                  <div class="newsletter">
-                      <div class="mb-4">Newsletter</div>
-                                    <h3 class="h1 mb-4">Receba todas as promoções</h3>
-                                    <span>Quer receber nossas ofertas exclusivas? Cadastre-se agora</span>
-              <div class="newsletter-cadastro input-conteiner">
-                <input type="email" placeholder="Digite seu e-mail" name="email">
-                <button class="botao botao-input fundo-principal newsletter-assinar">
-                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"><g><g><path d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104c0.006-0.006,0.011-0.013,0.018-0.019C513.968,262.339,513.943,249.635,506.134,241.843z"></path></g></g></svg>
-                </button>
-              </div>
-                                <div class="newsletter-confirmacao hide">
-                        <i class="icon-ok icon-3x"></i>
-                        <span>Seu cadastro foi realizado com sucesso em nossa newsletter.</span><br>
-                        <span class="cupom-code">Cupom de desconto: <strong>LIMALASH</strong></span>
-                      </div>
-                  </div>
-              </div>
-        </div>        
+      <div class="row-fluid ">
+        <div class="span12 text-center">
+          <div class="newsletter">
+            <div class="mb-4">Newsletter</div>
+            <h3 class="h1 mb-4">Receba todas as promoções</h3>
+            <span>Quer receber nossas ofertas exclusivas? Cadastre-se agora</span>
+            <div class="newsletter-cadastro input-conteiner">
+              <input type="email" placeholder="Digite seu e-mail" name="email">
+              <button class="botao botao-input fundo-principal newsletter-assinar">
+                <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+                  style="enable-background:new 0 0 512 512;" xml:space="preserve">
+                  <g>
+                    <g>
+                      <path
+                        d="M506.134,241.843c-0.006-0.006-0.011-0.013-0.018-0.019l-104.504-104c-7.829-7.791-20.492-7.762-28.285,0.068c-7.792,7.829-7.762,20.492,0.067,28.284L443.558,236H20c-11.046,0-20,8.954-20,20c0,11.046,8.954,20,20,20h423.557l-70.162,69.824c-7.829,7.792-7.859,20.455-0.067,28.284c7.793,7.831,20.457,7.858,28.285,0.068l104.504-104c0.006-0.006,0.011-0.013,0.018-0.019C513.968,262.339,513.943,249.635,506.134,241.843z">
+                      </path>
+                    </g>
+                  </g>
+                </svg>
+              </button>
+            </div>
+            <div class="newsletter-confirmacao hide">
+              <i class="icon-ok icon-3x"></i>
+              <span>Seu cadastro foi realizado com sucesso em nossa newsletter.</span><br>
+              <span class="cupom-code">Cupom de desconto: <strong>LIMALASH</strong></span>
+            </div>
+          </div>
+        </div>
       </div>
+    </div>
   </section>
   <div class="container">
     <div class="row">
-      <div class="col-12 col-lg-auto order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>last pl-xl-4">
-        <div class="footer__contacts">
-          <% if (footer.contacts.title) { %>
-            <div class="footer__title">
-              <%= footer.contacts.title %>
-            </div>
-          <% } %>
 
-          <ul class="list-unstyled">
-            <% if (footer.contacts.phone_wpp) { %>
-              <% if (contacts.whatsapp) { %>
-                <li>
-                  <span class="footer__list-icon">
-                    <i class="i-whatsapp"></i>
-                  </span>
-                  <a
-                    href="javascript:;"
-                    target="_blank"
-                    rel="noopener"
-                    class="whatsapp-link"
-                    data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>"
-                  >
-                    <%= contacts.whatsapp %>
-                  </a>
-                </li>
-              <% } %>
-              <% if (contacts.phone) { %>
-                <li>
-                  <span class="footer__list-icon">
-                    <i class="i-phone"></i>
-                  </span>
-                  <a
-                    href="tel:+<%= contacts.phone.replace(/\D/g, '') %>"
-                    target="_blank"
-                    rel="noopener"
-                  >
-                    <%= contacts.phone %>
-                  </a>
-                </li>
-              <% } %>
-            <% } %>
-            <% if (footer.contacts.email) { %>
-              <li>
-                <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
-                  <%= contacts.email %>
-                </a>
-              </li>
-            <% } %>
-            <% if (footer.contacts.address) { %>
-              <li>
-                <address>
-                  <%= contacts.address %>
-                </address>
-              </li>
-            <% } %>
-          </ul>
-
-          <% if (footer.contacts.socials) { %>
-            <p class="footer__social">
-              <%- await include('@/layout/inc/networks', { _, contacts }) %>
-            </p>
-          <% } %>
-        </div>
-      </div>
-
-      <% if (footer.links_1.list_pages || footer.links_1.list.find(({ url }) => url)) { %>
-        <div class="col-12 col-sm-6 col-lg col-xl-auto px-xl-4">
-          <a
-            class="footer__title"
-            data-toggle="collapse"
-            href="#footer-pages"
-            role="button"
-            aria-expanded="false"
-            aria-controls="footer-pages"
-          >
+      <% if (footer.links_1.list_pages || footer.links_1.list.find(({ url })=> url)) { %>
+        <div class="col-12 col-sm-6 col-lg-4 px-xl-4 order-lg-first">
+          <a class="footer__title" data-toggle="collapse" href="#footer-pages" role="button" aria-expanded="false"
+            aria-controls="footer-pages">
             <%= footer.links_1.title || _.dictionary('pages') %>
           </a>
           <div class="collapse" id="footer-pages">
             <% if (footer.links_1.list_pages) { %>
               <ul class="footer__links">
-                <% (_.cms('pages') || []).forEach(slug => { %>
-                  <% const { title } = _.cms(`pages/${slug}`) %>
-                  <li>
-                    <i class="i-chevron-right"></i>
-                    <a href="/pages/<%= slug %>">
-                      <%= title %>
-                    </a>
-                  </li>
-                <% }) %>
-              </ul>
-            <% } else { %>
-              <ul class="footer__links">
-                <% footer.links_1.list.forEach(({ url, text }) => { %>
-                  <li>
-                    <i class="i-chevron-right"></i>
-                    <a href="<%= url %>">
-                      <%= text %>
-                    </a>
-                  </li>
-                <% }) %>
-              </ul>
-            <% } %>
-          </div>
-        </div>
-      <% } %>
-
-      <% if (footer.links_2.list_categories || footer.links_2.list.find(({ url }) => url)) { %>
-        <div class="col-12 col-sm-6 col-lg col-xl-auto px-xl-4">
-          <a
-            class="footer__title"
-            data-toggle="collapse"
-            href="#footer-categories"
-            role="button"
-            aria-expanded="false"
-            aria-controls="footer-categories"
-          >
-            <%= footer.links_2.title || _.dictionary('categories') %>
-          </a>
-          <div class="collapse" id="footer-categories">
-            <% if (footer.links_2.list_categories) { %>
-              <ul class="footer__links">
-                <% _.categories.forEach(({ name, slug, parent }) => { %>
-                  <% if (!parent) { %>
+                <% (_.cms('pages') || []).forEach(slug=> { %>
+                  <% const { title }=_.cms(`pages/${slug}`) %>
                     <li>
                       <i class="i-chevron-right"></i>
-                      <a href="/<%= slug %>">
-                        <%= name %>
+                      <a href="/pages/<%= slug %>">
+                        <%= title %>
                       </a>
                     </li>
-                  <% } %>
-                <% }) %>
+                    <% }) %>
               </ul>
-            <% } else { %>
-              <ul class="footer__links">
-                <% footer.links_2.list.forEach(({ url, text }) => { %>
-                  <li>
-                    <i class="i-chevron-right"></i>
-                    <a href="<%= url %>">
-                      <%= text %>
-                    </a>
-                  </li>
-                <% }) %>
-              </ul>
-            <% } %>
+              <% } else { %>
+                <ul class="footer__links">
+                  <% footer.links_1.list.forEach(({ url, text })=> { %>
+                    <li>
+                      <i class="i-chevron-right"></i>
+                      <a href="<%= url %>">
+                        <%= text %>
+                      </a>
+                    </li>
+                    <% }) %>
+                </ul>
+                <% } %>
           </div>
         </div>
-      <% } %>
+        <% } %>
 
-      <div class="col-12 col-xl order-<%= themeCustom === 'ecom-beauty' ? '' : 'lg-'%>first">
-        <h2 class="footer__title footer__store">
-          <%= footer.description.title || _.settings.name %>
-        </h2>
-        <p><%- footer.description.text || _.settings.description %></p>
-
-        <div class="mt-4 mb-3">
-          <p class="footer__payment-methods">
-            <% Object.keys(footer.payment_methods).forEach(method => { %>
-              <% if (footer.payment_methods[method]) { %>
-                <i class="pay-icon pay-icon--<%= method %>"></i>
+        <div class="col-12 col-lg-4">
+          <div class="footer__contacts">
+            <% if (footer.contacts.title) { %>
+              <div class="footer__title">
+                <%= footer.contacts.title %>
+              </div>
               <% } %>
-            <% }) %>
-          </p>
-          <div class="footer__stamps">
-            <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
+  
+                <ul class="list-unstyled">
+                  <% if (footer.contacts.phone_wpp) { %>
+                    <% if (contacts.whatsapp) { %>
+                      <li>
+                        <span class="footer__list-icon">
+                          <i class="i-whatsapp"></i>
+                        </span>
+                        <a href="javascript:;" target="_blank" rel="noopener" class="whatsapp-link"
+                          data-tel="<%= contacts.whatsapp.replace(/\D/g, '') %>">
+                          <%= contacts.whatsapp %>
+                        </a>
+                      </li>
+                      <% } %>
+                        <% if (contacts.phone) { %>
+                          <li>
+                            <span class="footer__list-icon">
+                              <i class="i-phone"></i>
+                            </span>
+                            <a href="tel:+<%= contacts.phone.replace(/\D/g, '') %>" target="_blank" rel="noopener">
+                              <%= contacts.phone %>
+                            </a>
+                          </li>
+                          <% } %>
+                            <% } %>
+                              <% if (footer.contacts.email) { %>
+                                <li>
+                                  <a href="mailto:<%= contacts.email %>" target="_blank" rel="noopener">
+                                    <%= contacts.email %>
+                                  </a>
+                                </li>
+                                <% } %>
+                                  <% if (footer.contacts.address) { %>
+                                    <li>
+                                      <address>
+                                        <%= contacts.address %>
+                                      </address>
+                                    </li>
+                                    <% } %>
+                </ul>
+          </div>
+          <h2 class="footer__title footer__store">
+            <%= footer.description.title || _.settings.name %>
+          </h2>
+          <p><%- footer.description.text || _.settings.description %></p>
+        </div>
+
+          <% if (footer.links_2.list_categories || footer.links_2.list.find(({ url })=> url)) { %>
+            <div class="col-12 col-sm-6 col-lg-4 px-xl-4">
+              <a class="footer__title" data-toggle="collapse" href="#footer-categories" role="button"
+                aria-expanded="false" aria-controls="footer-categories">
+                <%= footer.links_2.title || _.dictionary('categories') %>
+              </a>
+              <% if (footer.contacts.socials) { %>
+                <p class="footer__social">
+                  <%- await include('@/layout/inc/networks', { _, contacts }) %>
+                </p>
+                <% } %>
+            </div>
+            <% } %>
+    </div>
+    <div class="pagamento-selos">
+      <div class="conteiner">
+        <div class="row-fluid">
+          <div class="pagamento span8">
+            <span class="footer__title">Pague com</span>
+            <p class="footer__payment-methods">
+              <% Object.keys(footer.payment_methods).forEach(method=> { %>
+                <% if (footer.payment_methods[method]) { %>
+                  <i class="pay-icon pay-icon--<%= method %>"></i>
+                  <% } %>
+                    <% }) %>
+            </p>
+          </div>
+          <div class="selos span4">
+            <span class="footer__title">Qualidade e Segurança</span>
+            <div class="footer__stamps">
+              <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
+            </div>
           </div>
         </div>
       </div>
@@ -205,30 +173,22 @@ const themeCustom = _.settings.theme.custom || ''
       <span>
         <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
       </span>
-      <% if (themeCustom === 'ecom-beauty') { %>
+      <% if (themeCustom==='ecom-beauty' ) { %>
         <div class="ecom-credits-container">
           <div class="ecom-credits">
             <a href="https://e-com.plus" target="_blank" rel="noopener">
-              <img
-                src="https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/ecom-credits-white.png"
-                alt="E-Com Plus"
-                width="125.42"
-                height="20"
-              >
+              <img src="https://ecom.nyc3.cdn.digitaloceanspaces.com/storefront/ecom-credits-white.png" alt="E-Com Plus"
+                width="125.42" height="20">
             </a>
           </div>
         </div>
-      <% } %>
-      <button
-        id="go-to-top"
-        class="btn btn-primary ml-3"
-        type="button"
-        aria-label="<%= _.dictionary('goToTop') %>"
-      >
-        <i class="i-chevron-up"></i>
-      </button>
+        <% } %>
+          <button id="go-to-top" class="btn btn-primary ml-3" type="button" aria-label="<%= _.dictionary('goToTop') %>">
+            <i class="i-chevron-up"></i>
+          </button>
     </div>
-  </div>  
+  </div>
+  
 </footer>
 
 <%- await include('@/layout/inc/ecom-credits') %>
