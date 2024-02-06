@@ -10,6 +10,10 @@
     letter-spacing: 1.2px;
 }
 
+.quantity-selector__btn-container {
+    margin-left: 1px
+}
+
 @media(min-width: 576px) {
     #logo {
         max-height: 90px !important;
@@ -554,6 +558,7 @@
   .products-carousel__item .quantity-selector, .product-item .quantity-selector {
   opacity: 0
   }
+<<<<<<< HEAD
   .pagamento-selos .row-fluid {
     display: flex;
     justify-content: space-between;
@@ -602,3 +607,9 @@
         margin-right: 17px;
       }
   }
+=======
+.quantity-selector__btn-container {
+    width: 100% !important;
+}
+  
+>>>>>>> 6492b70a4af5a5deca0a4523b9570189ef40dc96

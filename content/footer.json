@@ -22,12 +22,6 @@
   },
   "stamps": [
     {
-      "src": "/img/uploads/sobele.png"
-    },
-    {
-      "src": "/img/uploads/macy.png"
-    },
-    {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
     }
