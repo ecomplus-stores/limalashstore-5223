@@ -524,7 +524,7 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/kit-iniciante-basico-c396</loc>
+      <loc>https://www.limalashstore.com.br/kit-iniciante-intermediario</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -2726,15 +2726,15 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/maintenance/index</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.limalashstore.com.br/maintenance/index</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
 </urlset>
