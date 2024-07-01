@@ -2540,6 +2540,12 @@
     </url>
   
     <url>
+      <loc>https://www.limalashstore.com.br/kit-pincas-sobelle-fruta-cor-c745</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://www.limalashstore.com.br/cilios</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -2810,13 +2816,13 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
+      <loc>https://www.limalashstore.com.br/pages/pagamentos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/pages/pagamentos</loc>
+      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
