@@ -59,6 +59,15 @@
       ]
     },
     {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2024-12-06T13:01:53.314Z",
+      "end": "2024-12-06T17:00:53.382Z",
+      "offers": [
+        "66f1a6bc9e4b2e07f516b5a7"
+      ]
+    },
+    {
       "autoplay": 5000,
       "page": 1,
       "title": "Combos ",
