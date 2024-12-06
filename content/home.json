@@ -60,7 +60,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<span><center><font size=\"3\" face=\"Oswald\">Ofertas Relâmpago</span></center>"
+      "html": "<span><center><font size=\"3\" face=\"Oswald\">Ofertas Relâmpago</font></span></center>"
     },
     {
       "type": "offers-timer",
