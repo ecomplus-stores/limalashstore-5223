@@ -64,7 +64,7 @@
     },
     {
       "type": "custom-html",
-      "html": "<div><b><span style=\"font-size: 18px;\">Ofertas Relâmpago</span></b><span style=\"font-size: 18px;\">﻿</span></div>"
+      "html": "<Center><span style=\"font-size: 22px;\"\"font-family: Oswald\">Ofertas Relâmpago</span></center>"
     },
     {
       "type": "offers-timer",
