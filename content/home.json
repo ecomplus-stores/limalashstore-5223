@@ -127,6 +127,10 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "page-title",
+      "title": "Ofertas Relâmpago"
     }
   ]
 }
