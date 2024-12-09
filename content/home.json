@@ -63,6 +63,10 @@
       "title": "Ofertas Relâmpago"
     },
     {
+      "type": "custom-html",
+      "html": "<div><b><span style=\"font-size: 18px;\">Ofertas Relâmpago</span></b><span style=\"font-size: 18px;\">﻿</span></div>"
+    },
+    {
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2024-12-09T12:49:40.623Z",
