@@ -59,6 +59,19 @@
       ]
     },
     {
+      "type": "page-title",
+      "title": "Ofertas Relâmpago"
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2024-12-09T12:49:40.623Z",
+      "end": "2024-12-09T17:30:55.233Z",
+      "offers": [
+        "65e105fb87ab487fbfcfd06d"
+      ]
+    },
+    {
       "autoplay": 5000,
       "page": 1,
       "title": "Combos ",
@@ -127,10 +140,6 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
-    },
-    {
-      "type": "page-title",
-      "title": "Ofertas Relâmpago"
     }
   ]
 }
