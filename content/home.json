@@ -80,10 +80,10 @@
       "shuffle": true,
       "limit": 24,
       "page": 1,
-      "sort": "offers",
+      "sort": "slug",
       "collection_id": "67b36c4d53d3dd5b9c6e2a47:categories:Liquida de Carnaval:/liquida-de-carnaval",
       "autoplay": 5000,
-      "title": "Liquida de Carnaval"
+      "title": ""
     },
     {
       "type": "collection-shelf",
