@@ -140,6 +140,15 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 22,
+      "page": 1,
+      "sort": null,
+      "collection_id": "67b36c4d53d3dd5b9c6e2a47:categories:Liquida de Carnaval:/liquida-de-carnaval",
+      "autoplay": 9000
     }
   ]
 }
