@@ -65,6 +65,16 @@
       ]
     },
     {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 24,
+      "page": 1,
+      "sort": "slug",
+      "collection_id": "67b36c4d53d3dd5b9c6e2a47:categories:Liquida de Carnaval:/liquida-de-carnaval",
+      "autoplay": 5000,
+      "title": ""
+    },
+    {
       "autoplay": 5000,
       "page": 1,
       "title": "Combos ",
@@ -74,16 +84,6 @@
       "limit": 24,
       "collection_id": "674db998b779d771796f8ffd:categories:Combos:/combos",
       "sort": "lowest_price"
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": 1,
-      "sort": "slug",
-      "collection_id": "67b36c4d53d3dd5b9c6e2a47:categories:Liquida de Carnaval:/liquida-de-carnaval",
-      "autoplay": 5000,
-      "title": ""
     },
     {
       "type": "collection-shelf",
