@@ -13,13 +13,13 @@
       "slides": [
         {
           "start": "",
-          "end": "2025-02-17T17:09:49.186Z",
+          "end": "",
           "img": "/img/uploads/limaynovo.jpg",
           "link": "https://www.limalashstore.com.br/limabasicmix"
         },
         {
           "start": "",
-          "end": "2025-02-17T17:10:08.346Z",
+          "end": "",
           "img": "/img/uploads/bannerlanw6d25-07.jpg",
           "link": "https://www.limalashstore.com.br/fioslimalashes"
         },
@@ -31,48 +31,32 @@
         },
         {
           "start": "",
-          "end": "2025-02-17T17:10:56.064Z",
+          "end": "",
           "img": "/img/uploads/limalinhabasicwnovo.jpg"
         },
         {
           "start": "",
-          "end": "2025-02-17T17:11:12.299Z",
+          "end": "",
           "img": "/img/uploads/11912-bannerentrega2.jpg"
         },
         {
           "start": "",
-          "end": "2025-02-17T17:12:11.101Z",
+          "end": "",
           "img": "/img/uploads/bannerhigh400smlashnv.jpg",
           "link": "https://www.limalashstore.com.br/smlash"
         },
         {
           "start": "",
-          "end": "2025-02-17T17:12:28.342Z",
+          "end": "",
           "img": "/img/uploads/bannercherrynovo.jpg",
           "link": "https://www.limalashstore.com.br/cherrylash"
         },
         {
           "start": "",
-          "end": "2025-02-17T17:12:43.797Z",
-          "img": "/img/uploads/clione1.jpg"
-        },
-        {
-          "start": "",
           "end": "",
-          "img": "/img/uploads/banner-para-mercado-shops-medio-promocao-de-carnaval-confete-serpentina-colorido-amarelo-1640-x-400-px-1-.jpg",
-          "link": "https://www.limalashstore.com.br/liquida-de-carnaval"
+          "img": "/img/uploads/clione1.jpg"
         }
       ]
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": true,
-      "limit": 24,
-      "page": 1,
-      "sort": "slug",
-      "collection_id": "67b36c4d53d3dd5b9c6e2a47:categories:Liquida de Carnaval:/liquida-de-carnaval",
-      "autoplay": 5000,
-      "title": ""
     },
     {
       "autoplay": 5000,
