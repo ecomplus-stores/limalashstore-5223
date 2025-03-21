@@ -2816,6 +2816,12 @@
     </url>
   
     <url>
+      <loc>https://www.limalashstore.com.br/esponja-para-treino-c-6uni</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://www.limalashstore.com.br/decemars</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -3044,15 +3050,15 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/app/index</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.6</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/maintenance/index</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.limalashstore.com.br/app/index</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.6</priority>
     </url>
   
 </urlset>
