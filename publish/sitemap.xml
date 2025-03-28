@@ -176,12 +176,6 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/anel-para-cola-de-cilios---coracao--50uni</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/decemars-cilios-w-3d-mix-curvatura-d-tamanhos-08-ao-12</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -2786,6 +2780,12 @@
     </url>
   
     <url>
+      <loc>https://www.limalashstore.com.br/anelcoracao50uni</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.9</priority>
+    </url>
+  
+    <url>
       <loc>https://www.limalashstore.com.br/cilios</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -3062,12 +3062,6 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
-      <changefreq>monthly</changefreq>
-      <priority>0.7</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/pages/pagamentos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
@@ -3075,6 +3069,12 @@
   
     <url>
       <loc>https://www.limalashstore.com.br/pages/trocas</loc>
+      <changefreq>monthly</changefreq>
+      <priority>0.7</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -3092,15 +3092,15 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/blog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
+    </url>
+  
+    <url>
+      <loc>https://www.limalashstore.com.br/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
     </url>
   
     <url>
