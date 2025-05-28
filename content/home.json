@@ -110,6 +110,10 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/bannerclione.jpg"
     }
   ]
 }
