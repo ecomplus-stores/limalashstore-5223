@@ -3092,7 +3092,7 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/pages/pagamentos</loc>
+      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
@@ -3104,7 +3104,7 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/pages/entrega</loc>
+      <loc>https://www.limalashstore.com.br/pages/pagamentos</loc>
       <changefreq>monthly</changefreq>
       <priority>0.7</priority>
     </url>
