@@ -2780,12 +2780,6 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/bella-moca-w5d-marrom-mix</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.9</priority>
-    </url>
-  
-    <url>
       <loc>https://www.limalashstore.com.br/cilios-bella-moca-w5d-marrom-shaped-mix</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
@@ -3140,6 +3134,12 @@
     </url>
   
     <url>
+      <loc>https://www.limalashstore.com.br/blog</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://www.limalashstore.com.br/</loc>
       <changefreq>daily</changefreq>
       <priority>1</priority>
@@ -3147,12 +3147,6 @@
   
     <url>
       <loc>https://www.limalashstore.com.br/search</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://www.limalashstore.com.br/blog</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
