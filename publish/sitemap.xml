@@ -398,7 +398,7 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/cola-macy-gold-3ml</loc>
+      <loc>https://www.limalashstore.com.br/gold3g</loc>
       <changefreq>weekly</changefreq>
       <priority>0.9</priority>
     </url>
@@ -3170,13 +3170,13 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/admin/index</loc>
+      <loc>https://www.limalashstore.com.br/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/app/index</loc>
+      <loc>https://www.limalashstore.com.br/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
