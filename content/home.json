@@ -121,6 +121,15 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 23,
+      "page": 1,
+      "collection_id": "68d7fd4d578b5f7954bb842f:categories:Promo Final de semana:/promo-final-de-semana",
+      "sort": "lowest_price",
+      "title": "Promo Final de Semana 27/09 à 28/09"
     }
   ]
 }
