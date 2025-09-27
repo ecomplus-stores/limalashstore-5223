@@ -129,7 +129,8 @@
       "page": 1,
       "collection_id": "68d7fd4d578b5f7954bb842f:categories:Promo Final de semana:/promo-final-de-semana",
       "sort": "lowest_price",
-      "title": "Promo Final de Semana 27/09 à 28/09"
+      "title": "Promo Final de Semana 27/09 à 28/09",
+      "autoplay": 5000
     }
   ]
 }
