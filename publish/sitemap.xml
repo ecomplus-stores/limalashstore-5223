@@ -2528,6 +2528,12 @@
     </url>
   
     <url>
+      <loc>https://www.limalashstore.com.br/404</loc>
+      <changefreq>weekly</changefreq>
+      <priority>0.8</priority>
+    </url>
+  
+    <url>
       <loc>https://www.limalashstore.com.br/blog</loc>
       <changefreq>weekly</changefreq>
       <priority>0.8</priority>
@@ -2546,19 +2552,13 @@
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/404</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  
-    <url>
-      <loc>https://www.limalashstore.com.br/admin/index</loc>
+      <loc>https://www.limalashstore.com.br/app/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
   
     <url>
-      <loc>https://www.limalashstore.com.br/app/index</loc>
+      <loc>https://www.limalashstore.com.br/admin/index</loc>
       <changefreq>monthly</changefreq>
       <priority>0.6</priority>
     </url>
