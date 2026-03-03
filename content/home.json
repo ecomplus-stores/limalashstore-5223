@@ -48,17 +48,6 @@
       ]
     },
     {
-      "autoplay": 50000,
-      "page": 1,
-      "title": "Promo Final de Semana 04 e 05/10 ",
-      "shuffle": true,
-      "type": "collection-shelf",
-      "link": "https://www.limalashstore.com.br/promo-final-de-semana",
-      "limit": 24,
-      "collection_id": "68e10b18578b5f7954c2d3c2:categories:Promo Final de semana:/promo-final-de-semana",
-      "sort": "lowest_price"
-    },
-    {
       "autoplay": 5000,
       "page": 1,
       "title": "Combos ",
@@ -132,6 +121,16 @@
       "offset": 0,
       "autoplay": 5000,
       "sort": null
+    },
+    {
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 22,
+      "page": 1,
+      "collection_id": "69a706b3c650040a8caa02be:categories:Cabelos:/cabelos",
+      "sort": "lowest_price",
+      "title": "Novidades em Cabelos",
+      "autoplay": 5000
     }
   ]
 }
