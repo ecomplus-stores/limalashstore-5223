@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.4ad41193a51584b4cf84846ef464fa5e.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_384x384.52a2032214d80d056e586870c65a1942.jpeg",
+      "sizes": "384x384",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_192x192.42e5a1c7b55c8a86aa77cf51f668ef46.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_128x128.866316263d5733db12f9eec3e4a414c1.jpeg",
+      "sizes": "128x128",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "/icon_96x96.1d41586f0e867dabf5cd262b762499c2.jpeg",
+      "sizes": "96x96",
+      "type": "image/jpeg"
+    }
+  ],
+  "name": "LIMA LASH STORE",
+  "short_name": "HORÁRIO DE ATENDIMENTO:",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "\nSeg a Sex de 09h às 18h\nSábado de 09h às 12h",
+  "background_color": "#ffffff",
+  "theme_color": "#bc5c79"
+}
